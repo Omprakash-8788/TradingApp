@@ -1,0 +1,82 @@
+.investor-container{
+    margin-top: 100px;
+    background-color: rgb(135, 119, 119);
+    min-height: 100vh;
+    padding: 80px 0px 0px 250px;
+}
+
+.investor-container h1{
+    color: white;
+}
+
+.investor-container h4{
+    color: white;
+}
+.investor-container section{
+    display: flex;
+}
+.images{
+   border-radius: 50%;
+   height: 70px;
+   width: 70px;
+   padding: 0;
+   margin: 0;
+}
+
+.inv-container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: rgb(241, 232, 232);
+}
+
+
+.boxes:hover{
+    cursor: pointer;
+    box-shadow: 1px 3px 1px 1px #9E9E9E;
+    opacity: 0.9;
+}
+
+.investor-container h5{
+
+    position: absolute;
+    left: 72.5%;
+     background: none;
+     color: rgb(10, 10, 94);
+}
+.view-more{
+    position: absolute;
+   left: 72.5%;
+    background: none;
+    color: rgb(10, 10, 94);
+}
+
+.view-more-heading{
+    border-bottom: 3px solid  rgb(10, 10, 114);
+
+}
+.view-more:hover{
+    background: none;
+   
+}
+.investor-card-container{
+    padding-left: 50px;
+}
+
+@media (max-width:400px) {
+    .investor-container{
+        padding: 0;
+        margin:0
+    }
+    .create-investor{
+        text-align: center;
+    }
+    .investor-container section{
+        display: block;
+    }
+    .investor-card-container{
+        padding-left: 10px;
+        width: 100%;
+    }
+}

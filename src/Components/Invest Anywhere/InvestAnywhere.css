@@ -1,0 +1,94 @@
+.getintouch-container{
+    /* margin: 100px 00px 0px 150px;
+    height: fit-content; */
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 70px;
+    
+}
+
+.getintouch-container-2{
+    background-color: #13BD68;
+    width: fit-content;
+    padding: 50px 0px 0px 50px;
+    display: flex;
+    border-radius: 20px;
+    text-align: center;
+    
+
+}
+
+.getintouch-text h1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.getintouch-text p{
+    color: white; 
+    font-size: 20px;
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.getintouch-button{
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top:20px;
+    color: #13BD68;
+    font-size: 18px
+}
+
+.getintouch-image{
+    padding-left: 250px;
+}
+
+.getindex-container{
+    display: flex;
+}
+.getindex-first{
+    padding:180px 0px 0px 250px;
+    flex:1
+}
+
+.getindex-first h1{
+    font-size: 60px;
+}
+
+.getindex-first h5{
+    width:70%;
+    padding-top:20px;
+    opacity:0.8
+}
+
+.getfirst-container{
+    padding:100px 0px 0px 0px;
+    display:flex;
+    gap:50px
+}
+
+.getfirst-container h6{
+    opacity: 0.8;
+}
+
+.getsec-container{
+    padding:60px 0px 0px 0px;
+    display:flex;
+    gap:50px
+}
+
+.getsec-container h6{
+    opacity: 0.8;
+    width: 80%;
+}
+
+.getindex-sec{
+    flex:1;
+    display:block;
+    padding:100px 0px 0px 0px;
+     margin-left:auto
+}

@@ -1,0 +1,91 @@
+.mainlogin-button {
+  color: "white";
+  font-family: georgia;
+}
+
+.box-style-container {
+  margin: 0px 0px 0px 0px;
+  background-color: white;
+  height: 60vh;
+  display: flex;
+}
+
+.box-style {
+  flex: 1;
+  background-color: #13bd68;
+  height: 60vh;
+}
+
+.box-style h2 {
+  padding: 70px 0px 0px 70px;
+  flex: 1;
+  font-size: 40px;
+  font-family: georgia;
+}
+
+.grow-container {
+  width: fit-content;
+  flex: 1;
+  height: max-content;
+}
+
+.grow-container h1 {
+  padding: 70px 20px 0px 0px;
+  text-align: center;
+  font-family: georgia;
+}
+
+.grow-container-section {
+  margin: 20px 20px 0px 50px;
+  background-color: white;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  box-shadow: 3px 3px 3px #9e9e9e;
+  text-align: center;
+  width: 75%;
+}
+
+.grow-container-section h4 {
+  text-align: center;
+  padding-top: 10px;
+  font-family: georgia;
+}
+
+.mainlogin-buttons button{
+
+  height: 50px;
+  width: 100%;
+  background-color: #13bd68;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  font-family: georgia;
+}
+.mainlogin-buttons{
+    padding-top: 50px;
+}
+
+.mainlogin-buttons p{
+    font-size: 13px;
+    font-family: georgia
+}
+
+.login-email-inputs input {
+  border: none;
+  border-bottom: 1px solid #a7bcff;
+  width: 100%;
+  outline: none;
+}
+
+.login-email-inputs  {
+    padding-top: 40px;
+}
+
+@media (max-width:400px) {
+  .mainlogin-button{
+    font-size: 2px;
+  }
+ 
+}

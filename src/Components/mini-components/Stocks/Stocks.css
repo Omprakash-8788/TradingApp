@@ -1,0 +1,69 @@
+.invest {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 35px;
+  display: flex;
+  width: 100%;
+ 
+  
+}
+
+.trust {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  width:fit-content;
+  padding-top: 10px;
+  
+}
+
+.spans {
+  font-size: 35px;
+  animation-name: animes;
+  animation-duration: 10s;
+  padding: 0px 0px 0px 0px;
+  animation-iteration-count:1;
+  animation-timing-function: ease-in-out;
+  padding-left: 10px;
+  
+}
+
+.stock-button{
+  height: 60px;
+  width: 250px;
+  background-color: #13BD68;
+  border: none;
+  border-radius: 5px
+}
+@keyframes animes {
+  from {
+    width: 100px;
+  }
+  to {
+    width: 200px;
+  }
+}
+
+@media (max-width:400px) {
+  .invest{
+    text-align: center;
+    padding: 0 20px;
+
+  }
+  .spans{
+    text-align: center;
+    font-size: 1em;
+
+  }
+  .trust{
+    text-align: center;
+    max-width: max-content;
+    margin: 0 auto;
+  }
+  .stock-button{
+    height: 40px;
+  width: auto;
+  background-color: #13BD68;
+  border: none;
+  border-radius: 5px
+
+  }
+}

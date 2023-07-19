@@ -1,0 +1,67 @@
+.review-form-container{
+  padding-top: 50px;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  justify-self: center;
+  display: flex;
+  
+}
+.review-sec-container{
+  padding: 50px 80px 20px 80px;
+  margin-top: 100px;
+  background-color: rgb(135, 119, 119);
+  border-radius: 10px;
+  width: fit-content;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.review-heading-h4{
+  padding-bottom: 20px;
+}
+
+.review-heading{
+  border-bottom: 2px solid #13BD68;
+  
+}
+
+.email-container{
+  display: flex;
+  width: 90%;
+}
+
+.review-label{
+  display: flex;
+  align-items: flex-start;
+  padding-top: 20px;
+  color: white;
+  padding-bottom: 10px;
+}
+.review-label-input{
+ border: none;
+ outline: none;
+ width: 250px;
+ background-color: rgb(135, 119, 119);
+ color: white;
+ border-bottom: 2px solid black;
+}
+
+.review-label-input::placeholder{
+  color: black;
+}
+.review-button-container{
+  padding: 20px 0px 20px 0px;
+}
+
+.review-button{
+  height: 50px;
+  width: 100%;
+  background-color: #13BD68;
+  border: none;
+  border-radius: 5px;
+  margin-top:20px;
+  color: white;
+  font-size: 18px
+}

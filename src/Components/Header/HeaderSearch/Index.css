@@ -1,0 +1,23 @@
+.stock-name:hover{
+    background-color: rgb(119, 115, 115);
+    width: 100%;
+    
+}
+
+.stock-index{
+    background-color:rgb(135, 119, 119); 
+    width:80.3%;
+    line-height:20px;
+    text-align:start;
+    font-family:georgia;
+    z-index: 1;
+    border-color: red;
+    border-width: 20px;
+}
+
+.stock-index-section{
+    padding-left:30px;
+    gap:35px;
+    cursor:pointer;
+    display:flex
+}
